@@ -6,7 +6,10 @@ module.exports = {
       colors: {
         BgBlue: "#EDF7FA",
         secondry: "secondry"
-      }
+      },
+      fontFamily: {
+        heebo: "Heebo"
+      },
     },
   },
   plugins: [],
