@@ -15,6 +15,7 @@ module.exports = {
       fontSize: {
         menu: "2.75rem",
         title: "1.375rem",
+        title_posts: "1.625rem",
       },
       borderRadius: {
         smm: "0.25rem",
@@ -34,22 +35,22 @@ module.exports = {
           '@apply bg-Ci2 rounded-sm font-heebo font-medium px-4 py-2 text-xl inline-block text-white w-52 h-12': {},
         },
         '.custom-image': {
-          '@apply col-span-12 flex justify-center pt-[33px] order-1 lg:col-span-4 lg:justify-end lg:order-2 lg:pt-[140px] lg:pr-[148px]': {},
+          '@apply col-span-12 flex justify-center pt-[33px] order-1 lg:col-span-4 lg:justify-end lg:order-2 lg:pt-[140px] lg:pr-[148px] shadow-2xl shadow-BgBlue': {},
         },
         '.custom-image-rounded': {
           '@apply rounded-full w-[243px] h-[243px]': {},
         },
         '.custom-text2': {
-          '@apply col-span-12 flex items-center px-8 pb-[59px] order-2 pt-[34px] lg:col-span-8 lg:items-end flex-col lg:order-1 lg:pt-[60px] lg:pr-[148px] lg:pb-[71px]': {},
+          '@apply col-span-12 flex items-center px-8 pb-[59px] order-2 pt-[34px] lg:col-span-8 lg:items-start flex-col lg:order-1 lg:pt-[60px] lg:pr-[148px] lg:pb-[71px]': {},
         },
         '.custom-image2': {
-          '@apply col-span-12 flex justify-center pt-[50px] lg:col-span-4 lg:justify-start lg:pt-[55px] lg:pl-[148px]': {},
+          '@apply col-span-12 flex justify-center pt-[50px] lg:col-span-4 lg:justify-start lg:pt-[55px] lg:pl-[148px] shadow-2xl shadow-BgBlue': {},
         },
         '.custom-title': {
-          '@apply col-span-12 flex items-center py-4 h-[60px] lg:col-span-10 lg:items-start flex-col lg:pt-[15px] lg:pl-[148px] lg:pb-[22px]': {},
+          '@apply col-span-12 text-center py-4 h-[60px] lg:col-span-10 lg:text-left flex-col lg:pt-[15px] lg:pl-[148px] lg:pb-[22px]': {},
         },
         '.custom-view': {
-          '@apply hidden lg:col-span-2 lg:items-end flex-col lg:block lg:pt-[15px] lg:pr-[148px] lg:pb-[22px]': {},
+          '@apply hidden lg:col-span-2 lg:block lg:pt-[15px] lg:pr-[148px] lg:pb-[22px] lg:text-right': {},
         },
         '.text-name': {
           '@apply text-3xl font-heebo font-bold text-Ctext lg:text-menu pb-5': {},
