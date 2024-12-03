@@ -650,11 +650,6 @@ video {
   display: flex;
   justify-content: center;
   padding-top: 33px;
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  --tw-shadow-color: #EDF7FA;
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 @media (min-width: 1024px) {
@@ -701,11 +696,6 @@ video {
   display: flex;
   justify-content: center;
   padding-top: 50px;
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  --tw-shadow-color: #EDF7FA;
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 @media (min-width: 1024px) {
@@ -801,8 +791,16 @@ video {
   grid-column: span 12 / span 12;
 }
 
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+
 .col-span-5 {
   grid-column: span 5 / span 5;
+}
+
+.col-span-8 {
+  grid-column: span 8 / span 8;
 }
 
 .block {
@@ -834,24 +832,8 @@ video {
   height: 60px;
 }
 
-.h-auto {
-  height: auto;
-}
-
 .h-screen {
   height: 100vh;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.max-w-\[418px\] {
-  max-width: 418px;
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-12 {
@@ -886,10 +868,6 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
 }
 
 .rounded-smm {
@@ -1023,12 +1001,6 @@ video {
   transition-duration: 150ms;
 }
 
-@media (min-width: 640px) {
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
 @media (min-width: 1024px) {
   .lg\:order-1 {
     order: 1;
@@ -1036,10 +1008,6 @@ video {
 
   .lg\:order-2 {
     order: 2;
-  }
-
-  .lg\:col-span-1 {
-    grid-column: span 1 / span 1;
   }
 
   .lg\:col-span-2 {
@@ -1064,10 +1032,6 @@ video {
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-start {
