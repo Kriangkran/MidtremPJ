@@ -35,7 +35,7 @@ module.exports = {
           '@apply bg-Ci2 rounded-sm font-heebo font-medium px-4 py-2 text-xl inline-block text-white w-52 h-12': {},
         },
         '.custom-image': {
-          '@apply col-span-12 flex justify-center pt-[33px] order-1 lg:col-span-4 lg:justify-end lg:order-2 lg:pt-[140px] lg:pr-[148px] shadow-2xl shadow-BgBlue': {},
+          '@apply col-span-12 flex justify-center pt-[33px] order-1 lg:col-span-4 lg:justify-end lg:order-2 lg:pt-[140px] lg:pr-[148px]': {},
         },
         '.custom-image-rounded': {
           '@apply rounded-full w-[243px] h-[243px]': {},
@@ -44,7 +44,7 @@ module.exports = {
           '@apply col-span-12 flex items-center px-8 pb-[59px] order-2 pt-[34px] lg:col-span-8 lg:items-start flex-col lg:order-1 lg:pt-[60px] lg:pr-[148px] lg:pb-[71px]': {},
         },
         '.custom-image2': {
-          '@apply col-span-12 flex justify-center pt-[50px] lg:col-span-4 lg:justify-start lg:pt-[55px] lg:pl-[148px] shadow-2xl shadow-BgBlue': {},
+          '@apply col-span-12 flex justify-center pt-[50px] lg:col-span-4 lg:justify-start lg:pt-[55px] lg:pl-[148px]': {},
         },
         '.custom-title': {
           '@apply col-span-12 text-center py-4 h-[60px] lg:col-span-10 lg:text-left flex-col lg:pt-[15px] lg:pl-[148px] lg:pb-[22px]': {},
