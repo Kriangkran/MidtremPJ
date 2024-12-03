@@ -9,7 +9,9 @@ module.exports = {
         Ci2: "#FF6464",
         txBlue: "#00A8CC",
         BgBlue2: "#142850",
-        txcl: "#8695A4"
+        txcl: "#8695A4",
+        txclb: "#21243D",
+        lcl:"#E0E0E0"
       },
       fontFamily: {
         heebo: "Heebo"
@@ -60,8 +62,23 @@ module.exports = {
         '.text-info': {
           '@apply text-base text-Ctext font-heebo leading-relaxed pt-5 pb-10 lg:pt-5 lg:pb-10': {},
         },
-        '.custom-image-square': {
-          '@apply w-[246px] h-[180px]': {},
+        '.custom-featured-image': {
+          '@apply col-span-12 px-[18px] flex justify-center lg:justify-start lg:col-span-4 lg:pl-[148px] lg:pr-0': {},
+        },
+        '.custom-featured-text': {
+          '@apply col-span-12 px-[18px] pt-[18px] lg:col-span-8 lg:pr-[148px] lg:pl-0': {},
+        },
+        '.custom-Recent-left': {
+          '@apply col-span-12 px-3 flex items-center lg:pb-8 lg:col-span-6 lg:pl-[148px] lg:pr-0': {},
+        },
+        '.custom-Recent-right': {
+          '@apply col-span-12 px-3 pb-9 flex items-center lg:pb-8 lg:col-span-6 lg:pr-[148px] lg:pl-0': {},
+        },
+        '.custom-footer-icon': {
+          '@apply col-span-12 flex justify-center space-x-[35px] px-[72px] pt-[128px] lg:px-[148px] lg:pt-[134px]': {},
+        },
+        '.custom-footer-text': {
+          '@apply col-span-12 text-txclb text-center text-sm pt-[26px] pb-[54px] font-heebo px-[76px] lg:pt-[26px] lg:px-[148px]': {},
         },
       })
     },],
