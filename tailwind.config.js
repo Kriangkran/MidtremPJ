@@ -7,7 +7,9 @@ module.exports = {
         BgBlue: "#EDF7FA",
         Ctext: "#21243D",
         Ci2: "#FF6464",
-        txBlue: "#00A8CC"
+        txBlue: "#00A8CC",
+        BgBlue2: "#142850",
+        txcl: "#8695A4"
       },
       fontFamily: {
         heebo: "Heebo"
@@ -57,6 +59,9 @@ module.exports = {
         },
         '.text-info': {
           '@apply text-base text-Ctext font-heebo leading-relaxed pt-5 pb-10 lg:pt-5 lg:pb-10': {},
+        },
+        '.custom-image-square': {
+          '@apply w-[246px] h-[180px]': {},
         },
       })
     },],
